@@ -1,0 +1,162 @@
+CREATE DATABASE imoveis_daniel;
+
+USE imoveis_daniel;
+
+CREATE TABLE compradores (
+    cd_comprador INT NOT NULL,
+    nm_comprador VARCHAR(50) NOT NULL,
+    nm_enderecocomprador VARCHAR(50) NOT NULL,
+    nr_cpfcomprador VARCHAR(11) NOT NULL,
+    cd_cidade INT NOT NULL,
+    cd_bairro INT NOT NULL,
+    sg_estado CHAR(2) NOT NULL,
+    tel_comprador VARCHAR(11) NOT NULL
+);
+
+CREATE TABLE vendedor (
+    cd_vendedor INT NOT NULL,
+    nm_vendedor VARCHAR(50) NOT NULL,
+    nm_endereco VARCHAR(50) NOT NULL,
+    nr_cpf VARCHAR(11) NOT NULL,
+    cd_cidade INT NOT NULL,
+    cd_bairro INT NOT NULL,
+    sg_estado CHAR(2) NOT NULL,
+    telefone VARCHAR(11) NOT NULL,
+    data_nasc DATE NOT NULL
+);
+
+CREATE TABLE cidade (
+    cd_cidade INT NOT NULL,
+    nm_cidade VARCHAR(50) NOT NULL,
+    sg_estado CHAR(2) NOT NULL
+);
+
+CREATE TABLE bairro (
+    cd_bairro INT NOT NULL,
+    nm_bairro VARCHAR(50) NOT NULL,
+    cd_cidade INT NOT NULL,
+    sg_estado CHAR(2) NOT NULL
+);
+
+CREATE TABLE estado (
+    sg_estado CHAR(2) NOT NULL, 
+    nm_estado VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE oferta (
+    cd_oferta INT NOT NULL,
+    cd_imovel INT NOT NULL,
+    cd_comprador INT NOT NULL,
+    vl_oferta DECIMAL(9,2) NOT NULL,
+    dt_oferta DATETIME NOT NULL
+);
+
+CREATE TABLE faixa_imovel (
+    cd_faixa INT NOT NULL,
+    nm_faixa VARCHAR(50) NOT NULL,
+    vl_minimo DECIMAL(9,2) NOT NULL,
+    vl_maximo DECIMAL(9,2) NOT NULL
+);
+
+CREATE TABLE imovel(
+    cd_imovel INT NOT NULL,
+    cd_vendedor INT NOT NULL,
+    cd_bairro INT NOT NULL,
+    cd_cidade INT NOT NULL,
+    sg_estado CHAR(2) NOT NULL,
+    nm_endereco VARCHAR(50) NOT NULL,
+    nr_areautil DECIMAL(9,2) NOT NULL,
+    nr_areatotal DECIMAL(9,2) NOT NULL,
+    vl_preco DECIMAL(9,2) NOT NULL,
+    cd_oferta INT NOT NULL,
+    st_vendido BIT NOT NULL,
+    data_lancto DATETIME NOT NULL
+);
+
+ALTER TABLE compradores
+ADD PRIMARY KEY (cd_comprador);
+
+ALTER TABLE vendedor
+ADD PRIMARY KEY (cd_vendedor);
+
+ALTER TABLE cidade
+ADD PRIMARY KEY (cd_cidade);
+
+ALTER TABLE bairro
+ADD PRIMARY KEY (cd_bairro);
+
+ALTER TABLE estado
+ADD PRIMARY KEY (sg_estado);
+
+ALTER TABLE oferta
+ADD PRIMARY KEY (cd_oferta);
+
+ALTER TABLE faixa_imovel
+ADD PRIMARY KEY (cd_faixa);
+
+ALTER TABLE imovel
+ADD PRIMARY KEY (cd_imovel);
+
+ALTER TABLE compradores
+ADD FOREIGN KEY (cd_cidade)
+REFERENCES cidade (cd_cidade);
+
+ALTER TABLE compradores
+ADD FOREIGN KEY (cd_bairro)
+REFERENCES bairro (cd_bairro);
+
+ALTER TABLE compradores
+ADD FOREIGN KEY (sg_estado)
+REFERENCES estado (sg_estado);
+
+ALTER TABLE vendedor
+ADD FOREIGN KEY (cd_cidade)
+REFERENCES cidade (cd_cidade);
+
+ALTER TABLE vendedor
+ADD FOREIGN KEY (cd_bairro)
+REFERENCES bairro (cd_bairro);
+
+ALTER TABLE vendedor
+ADD FOREIGN KEY (sg_estado)
+REFERENCES estado (sg_estado);
+
+ALTER TABLE cidade
+ADD FOREIGN KEY (sg_estado)
+REFERENCES estado (sg_estado);
+
+ALTER TABLE bairro
+ADD FOREIGN KEY (cd_cidade)
+REFERENCES cidade (cd_cidade);
+
+ALTER TABLE bairro
+ADD FOREIGN KEY (sg_estado)
+REFERENCES estado (sg_estado);
+
+ALTER TABLE oferta
+ADD FOREIGN KEY (cd_imovel)
+REFERENCES imovel (cd_imovel);
+
+ALTER TABLE oferta
+ADD FOREIGN KEY (cd_comprador)
+REFERENCES compradores (cd_comprador);
+
+ALTER TABLE imovel
+ADD FOREIGN KEY (cd_vendedor)
+REFERENCES vendedor (cd_vendedor);
+
+ALTER TABLE imovel
+ADD FOREIGN KEY (cd_bairro)
+REFERENCES bairro (cd_bairro);
+
+ALTER TABLE imovel
+ADD FOREIGN KEY (cd_cidade)
+REFERENCES cidade (cd_cidade);
+
+ALTER TABLE imovel
+ADD FOREIGN KEY (sg_estado)
+REFERENCES estado (sg_estado);
+
+ALTER TABLE imovel
+ADD FOREIGN KEY (cd_oferta)
+REFERENCES oferta (cd_oferta);
