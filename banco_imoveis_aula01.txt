@@ -229,7 +229,7 @@ INSERT INTO bairro VALUES (1, '6 de Agosto', 1, 'AC');
 INSERT INTO bairro VALUES (2, 'Floresta', 1, 'AC');
 
 INSERT INTO bairro VALUES (3, 'Gruta de Lourdes', 2, 'AL');
-INSERT INTO bairro VALUES (4, 'Vergel Lago', 2, 'AL');
+INSERT INTO bairro VALUES (315, 'Vergel Lago', 2, 'AL');
 
 INSERT INTO bairro VALUES (4, 'Central', 3, 'AP');
 INSERT INTO bairro VALUES (5, 'Laguinho', 3, 'AP');
@@ -391,313 +391,313 @@ INSERT INTO bairro VALUES (108, 'Centro', 55, 'CE');
 INSERT INTO bairro VALUES (109, 'Capitão Teotônio', 55, 'CE');
 
 INSERT INTO bairro VALUES (110, 'Matias Souza', 56, 'CE');
-INSERT INTO bairro VALUES (210, 'Centro', 56, 'CE');
+INSERT INTO bairro VALUES (111, 'Centro', 56, 'CE');
 
-INSERT INTO bairro VALUES (111, 'Alto Alegre', 57, 'CE');
-INSERT INTO bairro VALUES (112, 'Papoco', 57, 'CE');
+INSERT INTO bairro VALUES (112, 'Alto Alegre', 57, 'CE');
+INSERT INTO bairro VALUES (113, 'Papoco', 57, 'CE');
 
-INSERT INTO bairro VALUES (113, 'Vila Rica', 58, 'ES');
-INSERT INTO bairro VALUES (114, 'Santa Helena', 58, 'ES');
+INSERT INTO bairro VALUES (114, 'Vila Rica', 58, 'ES');
+INSERT INTO bairro VALUES (115, 'Santa Helena', 58, 'ES');
 
-INSERT INTO bairro VALUES (115, 'Centro', 59, 'ES');
-INSERT INTO bairro VALUES (116, 'Luiza Gom', 59, 'ES');
+INSERT INTO bairro VALUES (116, 'Centro', 59, 'ES');
+INSERT INTO bairro VALUES (117, 'Luiza Gom', 59, 'ES');
 
-INSERT INTO bairro VALUES (117, 'Pedra Azul', 60, 'ES');
-INSERT INTO bairro VALUES (118, 'Paraju', 60, 'ES');
+INSERT INTO bairro VALUES (118, 'Pedra Azul', 60, 'ES');
+INSERT INTO bairro VALUES (119, 'Paraju', 60, 'ES');
 
-INSERT INTO bairro VALUES (119, 'Centro', 61, 'ES');
-INSERT INTO bairro VALUES (120, 'Presidente Getúlio Vargas', 61, 'ES');
+INSERT INTO bairro VALUES (120, 'Centro', 61, 'ES');
+INSERT INTO bairro VALUES (121, 'Presidente Getúlio Vargas', 61, 'ES');
 
-INSERT INTO bairro VALUES (121, 'Arraias', 62, 'ES');
-INSERT INTO bairro VALUES (122, 'Llmenita', 62, 'ES');
+INSERT INTO bairro VALUES (122, 'Arraias', 62, 'ES');
+INSERT INTO bairro VALUES (123, 'Llmenita', 62, 'ES');
 
-INSERT INTO bairro VALUES (123, 'Setor Central', 63, 'GO');
-INSERT INTO bairro VALUES (124, 'Zona Rural', 63, 'GO');
+INSERT INTO bairro VALUES (124, 'Setor Central', 63, 'GO');
+INSERT INTO bairro VALUES (125, 'Zona Rural', 63, 'GO');
 
-INSERT INTO bairro VALUES (125, 'Vila Fernão', 64, 'GO');
-INSERT INTO bairro VALUES (126, 'Campinorte', 64, 'GO');
+INSERT INTO bairro VALUES (126, 'Vila Fernão', 64, 'GO');
+INSERT INTO bairro VALUES (127, 'Campinorte', 64, 'GO');
 
-INSERT INTO bairro VALUES (127, 'Damianópolis', 65, 'GO');
-INSERT INTO bairro VALUES (128, 'Tiradentes', 65, 'GO');
+INSERT INTO bairro VALUES (128, 'Damianópolis', 65, 'GO');
+INSERT INTO bairro VALUES (129, 'Tiradentes', 65, 'GO');
 
-INSERT INTO bairro VALUES (129, 'Setor Central', 66, 'GO');
-INSERT INTO bairro VALUES (130, 'Zona Rural', 66, 'GO');
+INSERT INTO bairro VALUES (130, 'Setor Central', 66, 'GO');
+INSERT INTO bairro VALUES (131, 'Zona Rural', 66, 'GO');
 
-INSERT INTO bairro VALUES (131, 'Setor Justiniano', 67, 'GO');
-INSERT INTO bairro VALUES (132, 'Setor Central', 67, 'GO');
+INSERT INTO bairro VALUES (132, 'Setor Justiniano', 67, 'GO');
+INSERT INTO bairro VALUES (133, 'Setor Central', 67, 'GO');
 
-INSERT INTO bairro VALUES (133, 'Riacho', 68, 'MA');
-INSERT INTO bairro VALUES (134, 'Povoação', 68, 'MA');
+INSERT INTO bairro VALUES (134, 'Riacho', 68, 'MA');
+INSERT INTO bairro VALUES (135, 'Povoação', 68, 'MA');
 
-INSERT INTO bairro VALUES (135, 'Centro', 69, 'MA');
-INSERT INTO bairro VALUES (136, 'Senador La Roque', 69, 'MA');
+INSERT INTO bairro VALUES (136, 'Centro', 69, 'MA');
+INSERT INTO bairro VALUES (137, 'Senador La Roque', 69, 'MA');
 
-INSERT INTO bairro VALUES (137, 'Centro', 70, 'MA');
-INSERT INTO bairro VALUES (138, 'Buritirana', 70, 'MA');
+INSERT INTO bairro VALUES (138, 'Centro', 70, 'MA');
+INSERT INTO bairro VALUES (139, 'Buritirana', 70, 'MA');
 
-INSERT INTO bairro VALUES (139, 'Centro', 71, 'MA');
-INSERT INTO bairro VALUES (140, 'Sudene', 71, 'MA');
+INSERT INTO bairro VALUES (140, 'Centro', 71, 'MA');
+INSERT INTO bairro VALUES (141, 'Sudene', 71, 'MA');
 
-INSERT INTO bairro VALUES (141, 'Alto Alegre', 72, 'MA');
-INSERT INTO bairro VALUES (142, 'Centro', 72, 'MA');
+INSERT INTO bairro VALUES (142, 'Alto Alegre', 72, 'MA');
+INSERT INTO bairro VALUES (143, 'Centro', 72, 'MA');
 
-INSERT INTO bairro VALUES (143, 'Praça Santana', 73, 'MA');
-INSERT INTO bairro VALUES (143, 'Centro', 73, 'MA');
+INSERT INTO bairro VALUES (144, 'Praça Santana', 73, 'MA');
+INSERT INTO bairro VALUES (145, 'Centro', 73, 'MA');
 
-INSERT INTO bairro VALUES (144, 'Bela Vista', 74, 'MT');
-INSERT INTO bairro VALUES (144, 'Centro', 74, 'MT');
+INSERT INTO bairro VALUES (146, 'Bela Vista', 74, 'MT');
+INSERT INTO bairro VALUES (147, 'Centro', 74, 'MT');
 
-INSERT INTO bairro VALUES (145, 'Jardim Piracema', 75, 'MT');
-INSERT INTO bairro VALUES (146, 'Jardim Palmares', 75, 'MT');
+INSERT INTO bairro VALUES (148, 'Jardim Piracema', 75, 'MT');
+INSERT INTO bairro VALUES (149, 'Jardim Palmares', 75, 'MT');
 
-INSERT INTO bairro VALUES (147, 'Jardim São Luiz', 76, 'MT');
-INSERT INTO bairro VALUES (148, 'Santa Izabel', 76, 'MT');
+INSERT INTO bairro VALUES (150, 'Jardim São Luiz', 76, 'MT');
+INSERT INTO bairro VALUES (151, 'Santa Izabel', 76, 'MT');
 
-INSERT INTO bairro VALUES (149, 'Alves Ferreira', 77, 'MT');
-INSERT INTO bairro VALUES (150, 'Centro', 77, 'MT');
+INSERT INTO bairro VALUES (152, 'Alves Ferreira', 77, 'MT');
+INSERT INTO bairro VALUES (153, 'Centro', 77, 'MT');
 
-INSERT INTO bairro VALUES (151, 'Gaúcha do Norte', 78, 'MT');
-INSERT INTO bairro VALUES (152, 'Gaúcha do Norte', 78, 'MT');
+INSERT INTO bairro VALUES (154, 'Gaúcha do Norte', 78, 'MT');
+INSERT INTO bairro VALUES (155, 'Gaúcha do Norte', 78, 'MT');
 
-INSERT INTO bairro VALUES (153, 'Setor Indústrial', 79, 'MS');
-INSERT INTO bairro VALUES (154, 'Flores', 79, 'MS');
+INSERT INTO bairro VALUES (156, 'Setor Indústrial', 79, 'MS');
+INSERT INTO bairro VALUES (157, 'Flores', 79, 'MS');
 
-INSERT INTO bairro VALUES (155, 'Vila Penzo', 80, 'MS');
-INSERT INTO bairro VALUES (156, 'Zona Rural', 80, 'MS');
+INSERT INTO bairro VALUES (158, 'Vila Penzo', 80, 'MS');
+INSERT INTO bairro VALUES (159, 'Zona Rural', 80, 'MS');
 
-INSERT INTO bairro VALUES (157, 'Vila Militar', 81, 'MS');
-INSERT INTO bairro VALUES (158, 'Centro', 81, 'MS');
+INSERT INTO bairro VALUES (160, 'Vila Militar', 81, 'MS');
+INSERT INTO bairro VALUES (161, 'Centro', 81, 'MS');
 
-INSERT INTO bairro VALUES (159, 'Parque Ipe', 82, 'MS');
-INSERT INTO bairro VALUES (160, 'Vila Diamantina', 82, 'MS');
+INSERT INTO bairro VALUES (162, 'Parque Ipe', 82, 'MS');
+INSERT INTO bairro VALUES (163, 'Vila Diamantina', 82, 'MS');
 
-INSERT INTO bairro VALUES (161, 'Vila Nova Esperança', 83, 'MS');
-INSERT INTO bairro VALUES (162, 'Centro', 83, 'MS');
+INSERT INTO bairro VALUES (164, 'Vila Nova Esperança', 83, 'MS');
+INSERT INTO bairro VALUES (165, 'Centro', 83, 'MS');
 
-INSERT INTO bairro VALUES (163, 'Sagrada Família', 84, 'MG');
-INSERT INTO bairro VALUES (164, 'Santos Reis', 84, 'MG');
+INSERT INTO bairro VALUES (166, 'Sagrada Família', 84, 'MG');
+INSERT INTO bairro VALUES (167, 'Santos Reis', 84, 'MG');
 
-INSERT INTO bairro VALUES (165, 'Centro', 85, 'MG');
-INSERT INTO bairro VALUES (166, 'Manoel Borges', 85, 'MG');
+INSERT INTO bairro VALUES (168, 'Centro', 85, 'MG');
+INSERT INTO bairro VALUES (169, 'Manoel Borges', 85, 'MG');
 
-INSERT INTO bairro VALUES (167, 'Quarteis', 86, 'MG');
-INSERT INTO bairro VALUES (168, 'Quinzinho', 86, 'MG');
+INSERT INTO bairro VALUES (170, 'Quarteis', 86, 'MG');
+INSERT INTO bairro VALUES (171, 'Quinzinho', 86, 'MG');
 
-INSERT INTO bairro VALUES (169, 'Padre Cunha', 87, 'MG');
-INSERT INTO bairro VALUES (170, 'Centro', 87, 'MG');
+INSERT INTO bairro VALUES (172, 'Padre Cunha', 87, 'MG');
+INSERT INTO bairro VALUES (173, 'Centro', 87, 'MG');
 
-INSERT INTO bairro VALUES (171, 'Centro', 88, 'MG');
-INSERT INTO bairro VALUES (172, 'Carlos Barbosa', 88, 'MG');
+INSERT INTO bairro VALUES (174, 'Centro', 88, 'MG');
+INSERT INTO bairro VALUES (175, 'Carlos Barbosa', 88, 'MG');
 
-INSERT INTO bairro VALUES (173, 'Vila Americana', 89, 'PA');
-INSERT INTO bairro VALUES (174, 'Viveiros', 89, 'PA');
+INSERT INTO bairro VALUES (176, 'Vila Americana', 89, 'PA');
+INSERT INTO bairro VALUES (177, 'Viveiros', 89, 'PA');
 
-INSERT INTO bairro VALUES (175, 'Bonito', 90, 'PA');
-INSERT INTO bairro VALUES (176, 'Paraiso', 90, 'PA');
+INSERT INTO bairro VALUES (178, 'Bonito', 90, 'PA');
+INSERT INTO bairro VALUES (179, 'Paraiso', 90, 'PA');
 
-INSERT INTO bairro VALUES (177, 'Santana Marques', 91, 'PA');
-INSERT INTO bairro VALUES (178, 'Centro', 91, 'PA');
+INSERT INTO bairro VALUES (180, 'Santana Marques', 91, 'PA');
+INSERT INTO bairro VALUES (181, 'Centro', 91, 'PA');
 
-INSERT INTO bairro VALUES (179, 'Centro', 92, 'PA');
-INSERT INTO bairro VALUES (180, 'Trinta e um de Março', 92, 'PA');
+INSERT INTO bairro VALUES (182, 'Centro', 92, 'PA');
+INSERT INTO bairro VALUES (183, 'Trinta e um de Março', 92, 'PA');
 
-INSERT INTO bairro VALUES (181, 'Centro', 93, 'PA');
-INSERT INTO bairro VALUES (182, 'Santa Maria das Barreiras', 93, 'PA');
+INSERT INTO bairro VALUES (184, 'Centro', 93, 'PA');
+INSERT INTO bairro VALUES (185, 'Santa Maria das Barreiras', 93, 'PA');
 
-INSERT INTO bairro VALUES (183, 'Centro', 94, 'PB');
-INSERT INTO bairro VALUES (184, 'Algodão da Jandaíra', 94, 'PB');
+INSERT INTO bairro VALUES (186, 'Centro', 94, 'PB');
+INSERT INTO bairro VALUES (187, 'Algodão da Jandaíra', 94, 'PB');
 
-INSERT INTO bairro VALUES (185, 'Centro', 95, 'PB');
-INSERT INTO bairro VALUES (186, 'Flavio Ribeiro', 95'PB');
+INSERT INTO bairro VALUES (188, 'Centro', 95, 'PB');
+INSERT INTO bairro VALUES (189, 'Flavio Ribeiro', 95,'PB');
 
-INSERT INTO bairro VALUES (187, 'Tambai', 96, 'PB');
-INSERT INTO bairro VALUES (188, 'São Bento', 96, 'PB');
+INSERT INTO bairro VALUES (190, 'Tambai', 96, 'PB');
+INSERT INTO bairro VALUES (191, 'São Bento', 96, 'PB');
 
-INSERT INTO bairro VALUES (189, 'Jardim Quarentena', 97, 'PB');
-INSERT INTO bairro VALUES (190, 'Malvinas', 97, 'PB');
+INSERT INTO bairro VALUES (192, 'Jardim Quarentena', 97, 'PB');
+INSERT INTO bairro VALUES (193, 'Malvinas', 97, 'PB');
 
-INSERT INTO bairro VALUES (191, 'Centro', 98, 'PB');
-INSERT INTO bairro VALUES (192, 'Firmino Florentino', 98, 'PB');
+INSERT INTO bairro VALUES (194, 'Centro', 98, 'PB');
+INSERT INTO bairro VALUES (195, 'Firmino Florentino', 98, 'PB');
 
-INSERT INTO bairro VALUES (193, 'Itapema Baixo', 99, 'PR');
-INSERT INTO bairro VALUES (194, 'Centro', 99, 'PR');
+INSERT INTO bairro VALUES (196, 'Itapema Baixo', 99, 'PR');
+INSERT INTO bairro VALUES (197, 'Centro', 99, 'PR');
 
-INSERT INTO bairro VALUES (195, 'Dino Veiga', 100, 'PR');
-INSERT INTO bairro VALUES (196, 'Mário Junqueira', 100, 'PR');
+INSERT INTO bairro VALUES (198, 'Dino Veiga', 100, 'PR');
+INSERT INTO bairro VALUES (199, 'Mário Junqueira', 100, 'PR');
 
-INSERT INTO bairro VALUES (197, 'Parque São Paulo', 101, 'PR');
-INSERT INTO bairro VALUES (198, 'Primavera', 101, 'PR');
+INSERT INTO bairro VALUES (200, 'Parque São Paulo', 101, 'PR');
+INSERT INTO bairro VALUES (201, 'Primavera', 101, 'PR');
 
-INSERT INTO bairro VALUES (199, 'Vira', 102, 'PR');
-INSERT INTO bairro VALUES (200, 'Centro', 102, 'PR');
+INSERT INTO bairro VALUES (202, 'Vira', 102, 'PR');
+INSERT INTO bairro VALUES (203, 'Centro', 102, 'PR');
 
-INSERT INTO bairro VALUES (201, 'Área Indústrial', 103, 'PR');
-INSERT INTO bairro VALUES (202, 'Centro', 103, 'PR');
+INSERT INTO bairro VALUES (204, 'Área Indústrial', 103, 'PR');
+INSERT INTO bairro VALUES (205, 'Centro', 103, 'PR');
 
-INSERT INTO bairro VALUES (203, 'São Francisco', 104, 'PE');
-INSERT INTO bairro VALUES (204, 'Zona Rural', 104, 'PE');
+INSERT INTO bairro VALUES (206, 'São Francisco', 104, 'PE');
+INSERT INTO bairro VALUES (207, 'Zona Rural', 104, 'PE');
 
-INSERT INTO bairro VALUES (205, 'Praça Dom Pedro', 105, 'PE');
-INSERT INTO bairro VALUES (206, 'Quinze de Novembro', 105, 'PE');
+INSERT INTO bairro VALUES (208, 'Praça Dom Pedro', 105, 'PE');
+INSERT INTO bairro VALUES (209, 'Quinze de Novembro', 105, 'PE');
 
-INSERT INTO bairro VALUES (207, 'Luiz Pereira Júnior', 106, 'PE');
-INSERT INTO bairro VALUES (208, 'Centro', 106, 'PE');
+INSERT INTO bairro VALUES (210, 'Luiz Pereira Júnior', 106, 'PE');
+INSERT INTO bairro VALUES (211, 'Centro', 106, 'PE');
 
-INSERT INTO bairro VALUES (209, 'Costa Filho', 107, 'PE');
-INSERT INTO bairro VALUES (209, 'Centro', 107, 'PE');
+INSERT INTO bairro VALUES (212, 'Costa Filho', 107, 'PE');
+INSERT INTO bairro VALUES (213, 'Centro', 107, 'PE');
 
-INSERT INTO bairro VALUES (210, 'Modelo', 108, 'PE');
-INSERT INTO bairro VALUES (211, 'São José', 108, 'PE');
+INSERT INTO bairro VALUES (214, 'Modelo', 108, 'PE');
+INSERT INTO bairro VALUES (215, 'São José', 108, 'PE');
 
-INSERT INTO bairro VALUES (212, 'Maravilha', 109, 'PI');
-INSERT INTO bairro VALUES (213, 'Rodovia', 109, 'PI');
+INSERT INTO bairro VALUES (216, 'Maravilha', 109, 'PI');
+INSERT INTO bairro VALUES (217, 'Rodovia', 109, 'PI');
 
-INSERT INTO bairro VALUES (214, 'Centro', 110, 'PI');
-INSERT INTO bairro VALUES (215, '14 de Dezembro', 110, 'PI');
+INSERT INTO bairro VALUES (218, 'Centro', 110, 'PI');
+INSERT INTO bairro VALUES (219, '14 de Dezembro', 110, 'PI');
 
-INSERT INTO bairro VALUES (216, 'Centro', 111, 'PI');
-INSERT INTO bairro VALUES (217, 'José Gusmão', 111, 'PI');
+INSERT INTO bairro VALUES (220, 'Centro', 111, 'PI');
+INSERT INTO bairro VALUES (221, 'José Gusmão', 111, 'PI');
 
-INSERT INTO bairro VALUES (218, 'São Félix', 112, 'PI');
-INSERT INTO bairro VALUES (219, 'Centro', 112, 'PI');
+INSERT INTO bairro VALUES (316, 'São Félix', 112, 'PI');
+INSERT INTO bairro VALUES (222, 'Centro', 112, 'PI');
 
-INSERT INTO bairro VALUES (220, 'Antônio Luiz', 113, 'PI');
-INSERT INTO bairro VALUES (221, 'São Francisco', 113, 'PI');
+INSERT INTO bairro VALUES (223, 'Antônio Luiz', 113, 'PI');
+INSERT INTO bairro VALUES (224, 'São Francisco', 113, 'PI');
 
-INSERT INTO bairro VALUES (222, 'Morro Carmo', 114, 'RJ');
-INSERT INTO bairro VALUES (223, 'Encruso Enseada', 114, 'RJ');
+INSERT INTO bairro VALUES (225, 'Morro Carmo', 114, 'RJ');
+INSERT INTO bairro VALUES (226, 'Encruso Enseada', 114, 'RJ');
 
-INSERT INTO bairro VALUES (224, 'Centro', 115, 'RJ');
-INSERT INTO bairro VALUES (225, 'Doutor Hermes Ferro', 115, 'RJ');
+INSERT INTO bairro VALUES (227, 'Centro', 115, 'RJ');
+INSERT INTO bairro VALUES (228, 'Doutor Hermes Ferro', 115, 'RJ');
 
-INSERT INTO bairro VALUES (226, 'Duas Pedras', 116, 'RJ');
-INSERT INTO bairro VALUES (227, 'Conselheiro Paulino', 116, 'RJ');
+INSERT INTO bairro VALUES (229, 'Duas Pedras', 116, 'RJ');
+INSERT INTO bairro VALUES (230, 'Conselheiro Paulino', 116, 'RJ');
 
-INSERT INTO bairro VALUES (228, 'Parque Imperial', 117, 'RJ');
-INSERT INTO bairro VALUES (229, 'Cambore', 117, 'RJ');
+INSERT INTO bairro VALUES (231, 'Parque Imperial', 117, 'RJ');
+INSERT INTO bairro VALUES (232, 'Cambore', 117, 'RJ');
 
-INSERT INTO bairro VALUES (230, 'Alto Cajueiros', 118, 'RJ');
-INSERT INTO bairro VALUES (231, 'Costa do Sol', 118, 'RJ');
+INSERT INTO bairro VALUES (233, 'Alto Cajueiros', 118, 'RJ');
+INSERT INTO bairro VALUES (234, 'Costa do Sol', 118, 'RJ');
 
-INSERT INTO bairro VALUES (232, 'João Pessoa', 119, 'RN');
-INSERT INTO bairro VALUES (233, 'Constant', 119, 'RN');
+INSERT INTO bairro VALUES (235, 'João Pessoa', 119, 'RN');
+INSERT INTO bairro VALUES (236, 'Constant', 119, 'RN');
 
-INSERT INTO bairro VALUES (234, 'São Pedro', 120, 'RN');
-INSERT INTO bairro VALUES (235, 'Centro', 120, 'RN');
+INSERT INTO bairro VALUES (237, 'São Pedro', 120, 'RN');
+INSERT INTO bairro VALUES (238, 'Centro', 120, 'RN');
 
-INSERT INTO bairro VALUES (236, 'Alto Rodrigues', 121, 'RN');
-INSERT INTO bairro VALUES (237, 'Guamaré', 121, 'RN');
+INSERT INTO bairro VALUES (239, 'Alto Rodrigues', 121, 'RN');
+INSERT INTO bairro VALUES (240, 'Guamaré', 121, 'RN');
 
-INSERT INTO bairro VALUES (138, 'Bela Vista', 122, 'RN');
-INSERT INTO bairro VALUES (139, 'João Câmara', 122, 'RN');
+INSERT INTO bairro VALUES (241, 'Bela Vista', 122, 'RN');
+INSERT INTO bairro VALUES (242, 'João Câmara', 122, 'RN');
 
-INSERT INTO bairro VALUES (140, 'Porto', 123, 'RN');
-INSERT INTO bairro VALUES (141, 'Macau', 123, 'RN');
+INSERT INTO bairro VALUES (243, 'Porto', 123, 'RN');
+INSERT INTO bairro VALUES (244, 'Macau', 123, 'RN');
 
-INSERT INTO bairro VALUES (142, 'Dom Pedro II', 124, 'RS');
-INSERT INTO bairro VALUES (143, 'Paulo Klein', 124, 'RS');
+INSERT INTO bairro VALUES (245, 'Dom Pedro II', 124, 'RS');
+INSERT INTO bairro VALUES (246, 'Paulo Klein', 124, 'RS');
 
-INSERT INTO bairro VALUES (144, 'Zona Rural', 125, 'RS');
-INSERT INTO bairro VALUES (145, 'Centro', 125, 'RS');
+INSERT INTO bairro VALUES (247, 'Zona Rural', 125, 'RS');
+INSERT INTO bairro VALUES (248, 'Centro', 125, 'RS');
 
-INSERT INTO bairro VALUES (146, 'Juventude', 126, 'RS');
-INSERT INTO bairro VALUES (147, 'Botafogo', 126, 'RS');
+INSERT INTO bairro VALUES (249, 'Juventude', 126, 'RS');
+INSERT INTO bairro VALUES (250, 'Botafogo', 126, 'RS');
 
-INSERT INTO bairro VALUES (148, 'Vila Santo Ângelo', 127, 'RS');
-INSERT INTO bairro VALUES (149, 'Jardim dos Bosque', 127, 'RS');
+INSERT INTO bairro VALUES (251, 'Vila Santo Ângelo', 127, 'RS');
+INSERT INTO bairro VALUES (252, 'Jardim dos Bosque', 127, 'RS');
 
-INSERT INTO bairro VALUES (150, 'Nova Vicenza', 128, 'RS');
-INSERT INTO bairro VALUES (151, 'São Francisco', 128, 'RS');
+INSERT INTO bairro VALUES (253, 'Nova Vicenza', 128, 'RS');
+INSERT INTO bairro VALUES (254, 'São Francisco', 128, 'RS');
 
-INSERT INTO bairro VALUES (152, 'Maria Madalena', 129, 'RO');
-INSERT INTO bairro VALUES (153, 'Sol Poente', 129, 'RO');
+INSERT INTO bairro VALUES (255, 'Maria Madalena', 129, 'RO');
+INSERT INTO bairro VALUES (256, 'Sol Poente', 129, 'RO');
 
-INSERT INTO bairro VALUES (154, 'Setor 1', 130, 'RO');
-INSERT INTO bairro VALUES (155, 'Setor 2', 130, 'RO');
+INSERT INTO bairro VALUES (257, 'Setor 1', 130, 'RO');
+INSERT INTO bairro VALUES (258, 'Setor 2', 130, 'RO');
 
-INSERT INTO bairro VALUES (156, 'Centro', 131, 'RO');
-INSERT INTO bairro VALUES (157, 'Jatobá', 131, 'RO');
+INSERT INTO bairro VALUES (259, 'Centro', 131, 'RO');
+INSERT INTO bairro VALUES (260, 'Jatobá', 131, 'RO');
 
-INSERT INTO bairro VALUES (158, 'BR-425', 132, 'RO');
-INSERT INTO bairro VALUES (159, 'Nossa Senhora de Fátima', 132, 'RO');
+INSERT INTO bairro VALUES (261, 'BR-425', 132, 'RO');
+INSERT INTO bairro VALUES (262, 'Nossa Senhora de Fátima', 132, 'RO');
 
-INSERT INTO bairro VALUES (160, 'Alto Alegre', 133, 'RO');
-INSERT INTO bairro VALUES (161, 'Centro', 133, 'RO');
+INSERT INTO bairro VALUES (263, 'Alto Alegre', 133, 'RO');
+INSERT INTO bairro VALUES (264, 'Centro', 133, 'RO');
 
-INSERT INTO bairro VALUES (162, 'Centro', 134,'RR');
-INSERT INTO bairro VALUES (163, 'Fernão', 134'RR');
+INSERT INTO bairro VALUES (265, 'Centro', 134,'RR');
+INSERT INTO bairro VALUES (266, 'Fernão', 134, 'RR');
 
-INSERT INTO bairro VALUES (164, 'Paiva Brasil', 135, 'RR');
-INSERT INTO bairro VALUES (165, 'São Luiz', 135,'RR');
+INSERT INTO bairro VALUES (267, 'Paiva Brasil', 135, 'RR');
+INSERT INTO bairro VALUES (268, 'São Luiz', 135,'RR');
 
-INSERT INTO bairro VALUES (211, 'Mucajaí', 136, 'RR');
-INSERT INTO bairro VALUES (166, 'Centro', 136, 'RR');
+INSERT INTO bairro VALUES (269, 'Mucajaí', 136, 'RR');
+INSERT INTO bairro VALUES (270, 'Centro', 136, 'RR');
 
-INSERT INTO bairro VALUES (167, 'Centro', 137, 'RR');
-INSERT INTO bairro VALUES (168, 'Boa Vista', 137, 'RR');
+INSERT INTO bairro VALUES (271, 'Centro', 137, 'RR');
+INSERT INTO bairro VALUES (272, 'Boa Vista', 137, 'RR');
 
-INSERT INTO bairro VALUES (169, 'Suapi', 138, 'RR');
-INSERT INTO bairro VALUES (170, 'Centro', 138, 'RR');
+INSERT INTO bairro VALUES (273, 'Suapi', 138, 'RR');
+INSERT INTO bairro VALUES (274, 'Centro', 138, 'RR');
 
-INSERT INTO bairro VALUES (212, 'Avenida', 139, 'SC');
-INSERT INTO bairro VALUES (171, 'Águas Frias', 139, 'SC');
+INSERT INTO bairro VALUES (275, 'Avenida', 139, 'SC');
+INSERT INTO bairro VALUES (276, 'Águas Frias', 139, 'SC');
 
-INSERT INTO bairro VALUES (172, 'Distrito Marechal Bormann', 140, 'SC');
-INSERT INTO bairro VALUES (173, 'Efapi', 140, 'SC');
+INSERT INTO bairro VALUES (277, 'Distrito Marechal Bormann', 140, 'SC');
+INSERT INTO bairro VALUES (278, 'Efapi', 140, 'SC');
 
-INSERT INTO bairro VALUES (174, 'Sayonara', 141, 'SC');
-INSERT INTO bairro VALUES (175, 'Area Industrial', 141, 'SC');
+INSERT INTO bairro VALUES (279, 'Sayonara', 141, 'SC');
+INSERT INTO bairro VALUES (280, 'Area Industrial', 141, 'SC');
 
-INSERT INTO bairro VALUES (176, 'Bela Vista', 142, 'SC');
-INSERT INTO bairro VALUES (177, 'Passa Vinte', 142, 'SC');
+INSERT INTO bairro VALUES (281, 'Bela Vista', 142, 'SC');
+INSERT INTO bairro VALUES (282, 'Passa Vinte', 142, 'SC');
 
-INSERT INTO bairro VALUES (178, 'Germano Hermes Meyer', 143, 'SC');
-INSERT INTO bairro VALUES (179, 'Geral Stª Rosa de Lima', 143, 'SC');
+INSERT INTO bairro VALUES (283, 'Germano Hermes Meyer', 143, 'SC');
+INSERT INTO bairro VALUES (284, 'Geral Stª Rosa de Lima', 143, 'SC');
 
-INSERT INTO bairro VALUES (180, 'Santa Rita', 144, 'SP');
-INSERT INTO bairro VALUES (181, 'Ponte Alta', 144, 'SP');
+INSERT INTO bairro VALUES (285, 'Santa Rita', 144, 'SP');
+INSERT INTO bairro VALUES (286, 'Ponte Alta', 144, 'SP');
 
-INSERT INTO bairro VALUES (182, 'Jardim Universitário', 145, 'SP');
-INSERT INTO bairro VALUES (183, 'Somenzari', 145, 'SP');
+INSERT INTO bairro VALUES (287, 'Jardim Universitário', 145, 'SP');
+INSERT INTO bairro VALUES (288, 'Somenzari', 145, 'SP');
 
-INSERT INTO bairro VALUES (184, 'Parque Florianópolis', 146, 'SP');
-INSERT INTO bairro VALUES (185, 'Tanquinho Velho', 146, 'SP');
+INSERT INTO bairro VALUES (289, 'Parque Florianópolis', 146, 'SP');
+INSERT INTO bairro VALUES (290, 'Tanquinho Velho', 146, 'SP');
 
-INSERT INTO bairro VALUES (186, 'Jardim Leonor', 147, 'SP');
-INSERT INTO bairro VALUES (187, 'Portal Primavera', 147, 'SP');
+INSERT INTO bairro VALUES (291, 'Jardim Leonor', 147, 'SP');
+INSERT INTO bairro VALUES (292, 'Portal Primavera', 147, 'SP');
 
-INSERT INTO bairro VALUES (188, 'Francos', 148, 'SP');
-INSERT INTO bairro VALUES (189, 'Jardim São Francisco', 148, 'SP');
+INSERT INTO bairro VALUES (293, 'Francos', 148, 'SP');
+INSERT INTO bairro VALUES (294, 'Jardim São Francisco', 148, 'SP');
 
-INSERT INTO bairro VALUES (190, 'Amparo de São Francisco', 149, 'SE');
-INSERT INTO bairro VALUES (191, 'Agêcia', 149, 'SE');
+INSERT INTO bairro VALUES (295, 'Amparo de São Francisco', 149, 'SE');
+INSERT INTO bairro VALUES (296, 'Agêcia', 149, 'SE');
 
-INSERT INTO bairro VALUES (192, 'Centro', 150, 'SE');
-INSERT INTO bairro VALUES (193, 'Porto D areia', 150, 'SE');
+INSERT INTO bairro VALUES (297, 'Centro', 150, 'SE');
+INSERT INTO bairro VALUES (298, 'Porto D areia', 150, 'SE');
 
-INSERT INTO bairro VALUES (194, 'Ilha das Flores', 151, 'SE');
-INSERT INTO bairro VALUES (195, 'Avenida Barão Rio Branco', 151, 'SE');
+INSERT INTO bairro VALUES (299, 'Ilha das Flores', 151, 'SE');
+INSERT INTO bairro VALUES (300, 'Avenida Barão Rio Branco', 151, 'SE');
 
-INSERT INTO bairro VALUES (196, 'Centro', 152, 'SE');
-INSERT INTO bairro VALUES (197, 'Passos Porto', 152, 'SE');
+INSERT INTO bairro VALUES (301, 'Centro', 152, 'SE');
+INSERT INTO bairro VALUES (302, 'Passos Porto', 152, 'SE');
 
-INSERT INTO bairro VALUES (198, 'Centro', 153, 'SE');
-INSERT INTO bairro VALUES (199, 'Povoado Central', 153, 'SE');
+INSERT INTO bairro VALUES (303, 'Centro', 153, 'SE');
+INSERT INTO bairro VALUES (304, 'Povoado Central', 153, 'SE');
 
-INSERT INTO bairro VALUES (200, 'Setor Central', 154, 'TO');
-INSERT INTO bairro VALUES (201, 'Progresso', 154, 'TO');
+INSERT INTO bairro VALUES (305, 'Setor Central', 154, 'TO');
+INSERT INTO bairro VALUES (306, 'Progresso', 154, 'TO');
 
-INSERT INTO bairro VALUES (202, 'Zona Rural', 155, 'TO');
-INSERT INTO bairro VALUES (203, 'Setor Central', 155, 'TO');
+INSERT INTO bairro VALUES (307, 'Zona Rural', 155, 'TO');
+INSERT INTO bairro VALUES (308, 'Setor Central', 155, 'TO');
 
-INSERT INTO bairro VALUES (204, 'Loteamento Patrícia', 156, 'TO');
-INSERT INTO bairro VALUES (205, 'Setor Central', 156, 'TO');
+INSERT INTO bairro VALUES (309, 'Loteamento Patrícia', 156, 'TO');
+INSERT INTO bairro VALUES (310, 'Setor Central', 156, 'TO');
 
-INSERT INTO bairro VALUES (206, 'Aeroporto', 157, 'TO');
-INSERT INTO bairro VALUES (207, 'Praça da Bandeira', 157, 'TO');
+INSERT INTO bairro VALUES (311, 'Aeroporto', 157, 'TO');
+INSERT INTO bairro VALUES (312, 'Praça da Bandeira', 157, 'TO');
 
-INSERT INTO bairro VALUES (208, 'Setor Central', 158, 'TO');
-INSERT INTO bairro VALUES (209, 'Macieiras', 158, 'TO');
+INSERT INTO bairro VALUES (313, 'Setor Central', 158, 'TO');
+INSERT INTO bairro VALUES (314, 'Macieiras', 158, 'TO');
 
 
 /* 1ª */
