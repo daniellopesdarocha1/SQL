@@ -25,11 +25,203 @@ CREATE TABLE vendedor (
     data_nasc DATE NOT NULL
 );
 
+/* 3ª */
 CREATE TABLE cidade (
     cd_cidade INT NOT NULL,
     nm_cidade VARCHAR(50) NOT NULL,
     sg_estado CHAR(2) NOT NULL
 );
+
+INSERT INTO cidade VALUES (1, 'Rio Branco', 'AC');
+INSERT INTO cidade VALUES (2, 'Maceió', 'AL');
+INSERT INTO cidade VALUES (3, 'Macapá', 'AP');
+INSERT INTO cidade VALUES (4, 'Manaus', 'AM');
+INSERT INTO cidade VALUES (5, 'Salvador', 'BA');
+INSERT INTO cidade VALUES (6, 'Fortaleza', 'CE');
+INSERT INTO cidade VALUES (7, 'Brasilia', 'DF');
+INSERT INTO cidade VALUES (8, 'Vitória', 'ES');
+INSERT INTO cidade VALUES (9, 'Goiás', 'GO');
+INSERT INTO cidade VALUES (10, 'São Luís', 'MA');
+INSERT INTO cidade VALUES (11, 'Cuiabá', 'MT');
+INSERT INTO cidade VALUES (12, 'Campo Grande', 'MS');
+INSERT INTO cidade VALUES (13, 'Belo Horizonte', 'MG');
+INSERT INTO cidade VALUES (14, 'Pará', 'PA');
+INSERT INTO cidade VALUES (15, 'João Pessoa', 'PB');
+INSERT INTO cidade VALUES (16, 'Curitiba', 'PR');
+INSERT INTO cidade VALUES (17, 'Recife', 'PE');
+INSERT INTO cidade VALUES (18, 'Teresina', 'PI');
+INSERT INTO cidade VALUES (19, 'Rio de Janeiro', 'RJ');
+INSERT INTO cidade VALUES (20, 'Natal', 'RN');
+INSERT INTO cidade VALUES (21, 'Porto Alegre', 'RS');
+INSERT INTO cidade VALUES (22, 'Porto Velho', 'RO');
+INSERT INTO cidade VALUES (23, 'Boa Vista', 'RR');
+INSERT INTO cidade VALUES (24, 'Florianópolis', 'SC');
+INSERT INTO cidade VALUES (25, 'São Paulo', 'SP');
+INSERT INTO cidade VALUES (26, 'Aracaju', 'SE');
+INSERT INTO cidade VALUES (27, 'Palmas', 'TO');
+
+INSERT INTO cidade VALUES (28, 'Cruzeiro do Sul', 'AC');
+INSERT INTO cidade VALUES (29, 'Sena Madureira', 'AC');
+INSERT INTO cidade VALUES (30, 'Tarauacá', 'AC');
+INSERT INTO cidade VALUES (31, 'Feijó', 'AC');
+INSERT INTO cidade VALUES (32, 'Brasileia', 'AC');
+
+INSERT INTO cidade VALUES (33, 'Água Branca', 'AL');
+INSERT INTO cidade VALUES (34, 'Anadia', 'AL');
+INSERT INTO cidade VALUES (35, 'Arapiraca', 'AL');
+INSERT INTO cidade VALUES (36, 'Atalaia', 'AL');
+INSERT INTO cidade VALUES (37, 'Barra de Santo Antônio', 'AL');
+
+INSERT INTO cidade VALUES (38, '', 'AP');
+INSERT INTO cidade VALUES (39, '', 'AP');
+INSERT INTO cidade VALUES (40, '', 'AP');
+INSERT INTO cidade VALUES (41, '', 'AP');
+INSERT INTO cidade VALUES (42, '', 'AP');
+
+INSERT INTO cidade VALUES (43, '', 'AM');
+INSERT INTO cidade VALUES (44, '', 'AM');
+INSERT INTO cidade VALUES (45, '', 'AM');
+INSERT INTO cidade VALUES (46, '', 'AM');
+INSERT INTO cidade VALUES (47, '', 'AM');
+
+INSERT INTO cidade VALUES (48, '', 'BA');
+INSERT INTO cidade VALUES (49, '', 'BA');
+INSERT INTO cidade VALUES (50, '', 'BA');
+INSERT INTO cidade VALUES (51, '', 'BA');
+INSERT INTO cidade VALUES (52, '', 'BA');
+
+INSERT INTO cidade VALUES (53, '', 'CE');
+INSERT INTO cidade VALUES (54, '', 'CE');
+INSERT INTO cidade VALUES (55, '', 'CE');
+INSERT INTO cidade VALUES (56, '', 'CE');
+INSERT INTO cidade VALUES (57, '', 'CE');
+
+INSERT INTO cidade VALUES (58, '', 'DF');
+INSERT INTO cidade VALUES (59, '', 'DF');
+INSERT INTO cidade VALUES (60, '', 'DF');
+INSERT INTO cidade VALUES (61, '', 'DF');
+INSERT INTO cidade VALUES (62, '', 'DF');
+
+INSERT INTO cidade VALUES (63, '', 'ES');
+INSERT INTO cidade VALUES (64, '', 'ES');
+INSERT INTO cidade VALUES (65, '', 'ES');
+INSERT INTO cidade VALUES (66, '', 'ES');
+INSERT INTO cidade VALUES (67, '', 'ES');
+
+INSERT INTO cidade VALUES (68, '', 'GO');
+INSERT INTO cidade VALUES (69, '', 'GO');
+INSERT INTO cidade VALUES (70, '', 'GO');
+INSERT INTO cidade VALUES (71, '', 'GO');
+INSERT INTO cidade VALUES (72, '', 'GO');
+
+INSERT INTO cidade VALUES (73, '', 'MA');
+INSERT INTO cidade VALUES (74, '', 'MA');
+INSERT INTO cidade VALUES (75, '', 'MA');
+INSERT INTO cidade VALUES (76, '', 'MA');
+INSERT INTO cidade VALUES (77, '', 'MA');
+INSERT INTO cidade VALUES (78, '', 'MA');
+
+INSERT INTO cidade VALUES (79, '', 'MT');
+INSERT INTO cidade VALUES (80, '', 'MT');
+INSERT INTO cidade VALUES (81, '', 'MT');
+INSERT INTO cidade VALUES (82, '', 'MT');
+INSERT INTO cidade VALUES (83, '', 'MT');
+
+INSERT INTO cidade VALUES (84, '', 'MS');
+INSERT INTO cidade VALUES (85, '', 'MS');
+INSERT INTO cidade VALUES (86, '', 'MS');
+INSERT INTO cidade VALUES (87, '', 'MS');
+INSERT INTO cidade VALUES (88, '', 'MS');
+
+INSERT INTO cidade VALUES (89, '', 'MG');
+INSERT INTO cidade VALUES (90, '', 'MG');
+INSERT INTO cidade VALUES (91, '', 'MG');
+INSERT INTO cidade VALUES (92, '', 'MG');
+INSERT INTO cidade VALUES (93, '', 'MG');
+
+INSERT INTO cidade VALUES (94, '', 'PA');
+INSERT INTO cidade VALUES (95, '', 'PA');
+INSERT INTO cidade VALUES (96, '', 'PA');
+INSERT INTO cidade VALUES (97, '', 'PA');
+INSERT INTO cidade VALUES (98, '', 'PA');
+
+INSERT INTO cidade VALUES (99, '', 'PB');
+INSERT INTO cidade VALUES (100, '', 'PB');
+INSERT INTO cidade VALUES (101, '', 'PB');
+INSERT INTO cidade VALUES (102, '', 'PB');
+INSERT INTO cidade VALUES (103, '', 'PB');
+
+INSERT INTO cidade VALUES (104, '', 'PR');
+INSERT INTO cidade VALUES (105, '', 'PR');
+INSERT INTO cidade VALUES (106, '', 'PR');
+INSERT INTO cidade VALUES (107, '', 'PR');
+INSERT INTO cidade VALUES (108, '', 'PR');
+
+INSERT INTO cidade VALUES (109, '', 'PE');
+INSERT INTO cidade VALUES (110, '', 'PE');
+INSERT INTO cidade VALUES (111, '', 'PE');
+INSERT INTO cidade VALUES (112, '', 'PE');
+INSERT INTO cidade VALUES (113, '', 'PE');
+
+INSERT INTO cidade VALUES (114, '', 'PI');
+INSERT INTO cidade VALUES (115, '', 'PI');
+INSERT INTO cidade VALUES (116, '', 'PI');
+INSERT INTO cidade VALUES (117, '', 'PI');
+INSERT INTO cidade VALUES (118, '', 'PI');
+
+INSERT INTO cidade VALUES (119, '', 'RJ');
+INSERT INTO cidade VALUES (120, '', 'RJ');
+INSERT INTO cidade VALUES (121, '', 'RJ');
+INSERT INTO cidade VALUES (122, '', 'RJ');
+INSERT INTO cidade VALUES (123, '', 'RJ');
+
+INSERT INTO cidade VALUES (124, '', 'RN');
+INSERT INTO cidade VALUES (125, '', 'RN');
+INSERT INTO cidade VALUES (126, '', 'RN');
+INSERT INTO cidade VALUES (127, '', 'RN');
+INSERT INTO cidade VALUES (128, '', 'RN');
+
+INSERT INTO cidade VALUES (129, '', 'RS');
+INSERT INTO cidade VALUES (130, '', 'RS');
+INSERT INTO cidade VALUES (131, '', 'RS');
+INSERT INTO cidade VALUES (132, '', 'RS');
+INSERT INTO cidade VALUES (133, '', 'RS');
+
+INSERT INTO cidade VALUES (134, '', 'RO');
+INSERT INTO cidade VALUES (135, '', 'RO');
+INSERT INTO cidade VALUES (136, '', 'RO');
+INSERT INTO cidade VALUES (137, '', 'RO');
+INSERT INTO cidade VALUES (138, '', 'RO');
+
+INSERT INTO cidade VALUES (139, '', 'RR');
+INSERT INTO cidade VALUES (140, '', 'RR');
+INSERT INTO cidade VALUES (141, '', 'RR');
+INSERT INTO cidade VALUES (142, '', 'RR');
+INSERT INTO cidade VALUES (143, '', 'RR');
+
+INSERT INTO cidade VALUES (144, '', 'SC');
+INSERT INTO cidade VALUES (145, '', 'SC');
+INSERT INTO cidade VALUES (146, '', 'SC');
+INSERT INTO cidade VALUES (147, '', 'SC');
+INSERT INTO cidade VALUES (148, '', 'SC');
+
+INSERT INTO cidade VALUES (149, '', 'SP');
+INSERT INTO cidade VALUES (150, '', 'SP');
+INSERT INTO cidade VALUES (151, '', 'SP');
+INSERT INTO cidade VALUES (152, '', 'SP');
+INSERT INTO cidade VALUES (153, '', 'SP');
+
+INSERT INTO cidade VALUES (154, '', 'SE');
+INSERT INTO cidade VALUES (155, '', 'SE');
+INSERT INTO cidade VALUES (156, '', 'SE');
+INSERT INTO cidade VALUES (157, '', 'SE');
+INSERT INTO cidade VALUES (158, '', 'SE');
+
+INSERT INTO cidade VALUES (159, '', 'TO');
+INSERT INTO cidade VALUES (160, '', 'TO');
+INSERT INTO cidade VALUES (161, '', 'TO');
+INSERT INTO cidade VALUES (162, '', 'TO');
+INSERT INTO cidade VALUES (163, '', 'TO');
 
 CREATE TABLE bairro (
     cd_bairro INT NOT NULL,
@@ -38,10 +230,39 @@ CREATE TABLE bairro (
     sg_estado CHAR(2) NOT NULL
 );
 
+/* 1ª */
 CREATE TABLE estado (
     sg_estado CHAR(2) NOT NULL, 
     nm_estado VARCHAR(50) NOT NULL
 );
+
+INSERT INTO estado VALUES ('AC', 'Acre');
+INSERT INTO estado VALUES ('AL', 'Alagoas');
+INSERT INTO estado VALUES ('AP', 'Amapá');
+INSERT INTO estado VALUES ('AM', 'Amazonas');
+INSERT INTO estado VALUES ('BA', 'Bahia');
+INSERT INTO estado VALUES ('CE', 'Ceará');
+INSERT INTO estado VALUES ('DF', 'Distrito Federal');
+INSERT INTO estado VALUES ('ES', 'Espírito Santo');
+INSERT INTO estado VALUES ('GO', 'Goiás');
+INSERT INTO estado VALUES ('MA', 'Maranhão');
+INSERT INTO estado VALUES ('MT', 'Mato Grosso');
+INSERT INTO estado VALUES ('MS', 'Mato Grosso do Sul');
+INSERT INTO estado VALUES ('MG', 'Minas Gerais');
+INSERT INTO estado VALUES ('PA', 'Pará');
+INSERT INTO estado VALUES ('PB', 'Paraíba');
+INSERT INTO estado VALUES ('PR', 'Paraná');
+INSERT INTO estado VALUES ('PE', 'Pernanbuco');
+INSERT INTO estado VALUES ('PI', 'Piaui');
+INSERT INTO estado VALUES ('RJ', 'Rio de Janeiro');
+INSERT INTO estado VALUES ('RN', 'Rio Grande do Norte');
+INSERT INTO estado VALUES ('RS', 'Rio Grande do Sul');
+INSERT INTO estado VALUES ('RO', 'Rondônia');
+INSERT INTO estado VALUES ('RR', 'Roraima');
+INSERT INTO estado VALUES ('SC', 'Santa Catarina');
+INSERT INTO estado VALUES ('SP', 'São Paulo');
+INSERT INTO estado VALUES ('SE', 'Sergipe');
+INSERT INTO estado VALUES ('TO', 'Tocantins');
 
 CREATE TABLE oferta (
     cd_oferta INT NOT NULL,
@@ -51,12 +272,17 @@ CREATE TABLE oferta (
     dt_oferta DATETIME NOT NULL
 );
 
+/* 2ª */
 CREATE TABLE faixa_imovel (
     cd_faixa INT NOT NULL,
     nm_faixa VARCHAR(50) NOT NULL,
     vl_minimo DECIMAL(9,2) NOT NULL,
     vl_maximo DECIMAL(9,2) NOT NULL
 );
+
+INSERT INTO faixa_imovel VALUES (1, 'baixo', 0, 105000);
+INSERT INTO faixa_imovel VALUES (2, 'medio', 105001, 180000);
+INSERT INTO faixa_imovel VALUES (3, 'alto', 180001, 999999);
 
 CREATE TABLE imovel(
     cd_imovel INT NOT NULL,
@@ -160,3 +386,4 @@ REFERENCES estado (sg_estado);
 ALTER TABLE imovel
 ADD FOREIGN KEY (cd_oferta)
 REFERENCES oferta (cd_oferta);
+
