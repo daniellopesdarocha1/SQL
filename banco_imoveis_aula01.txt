@@ -792,7 +792,6 @@ CREATE TABLE imovel(
     nr_areautil DECIMAL(9,2) NOT NULL,
     nr_areatotal DECIMAL(9,2) NOT NULL,
     vl_preco DECIMAL(9,2) NOT NULL,
-    cd_oferta INT NOT NULL,
     st_vendido BIT NOT NULL,
     data_lancto DATETIME NOT NULL
 );
