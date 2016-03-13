@@ -1252,7 +1252,3 @@ REFERENCES cidade (cd_cidade);
 ALTER TABLE imovel
 ADD FOREIGN KEY (sg_estado)
 REFERENCES estado (sg_estado);
-
-ALTER TABLE imovel
-ADD FOREIGN KEY (cd_oferta)
-REFERENCES oferta (cd_oferta);
