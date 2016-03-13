@@ -762,6 +762,7 @@ INSERT INTO estado VALUES ('SP', 'São Paulo');
 INSERT INTO estado VALUES ('SE', 'Sergipe');
 INSERT INTO estado VALUES ('TO', 'Tocantins');
 
+/*8ª*/
 CREATE TABLE oferta (
     cd_oferta INT NOT NULL,
     cd_imovel INT NOT NULL,
@@ -769,6 +770,59 @@ CREATE TABLE oferta (
     vl_oferta DECIMAL(9,2) NOT NULL,
     dt_oferta DATETIME NOT NULL
 );
+
+INSERT INTO oferta VALUES ( 1 ,     1 ,     1 ,     321196 ,     '2002-08-01');
+INSERT INTO oferta VALUES ( 2 ,     2 ,     1 ,      961741 ,    '2008-06-08');
+INSERT INTO oferta VALUES ( 3 ,     3 ,     1 ,      724467 ,    '2002-04-07');
+INSERT INTO oferta VALUES ( 4 ,     315 ,   1 ,      668638 ,    '2002-06-05');
+INSERT INTO oferta VALUES ( 5 ,     4 ,     1 ,      779759 ,    '2006-08-06');
+INSERT INTO oferta VALUES ( 6 ,     5 ,     2 ,      268768 ,    '2005-07-01');
+INSERT INTO oferta VALUES ( 7 ,     6 ,     2 ,      916114 ,    '2008-02-09');
+INSERT INTO oferta VALUES ( 8 ,     7 ,     2 ,      792150 ,    '2009-07-07');
+INSERT INTO oferta VALUES ( 9 ,     8 ,     2 ,      547254 ,    '2009-09-09');
+INSERT INTO oferta VALUES ( 10 ,    9 ,     2 ,      672619 ,    '2005-02-02');
+INSERT INTO oferta VALUES ( 11 ,    10 ,    3 ,      233396 ,    '2006-01-01');
+INSERT INTO oferta VALUES ( 12 ,    11 ,    3 ,      521386 ,    '2004-06-04');
+INSERT INTO oferta VALUES ( 13 ,    12 ,    3 ,      399482 ,    '2002-08-05');
+INSERT INTO oferta VALUES ( 14 ,    13 ,    3 ,      551170 ,    '2008-07-01');
+INSERT INTO oferta VALUES ( 15 ,    14 ,    3 ,      929816 ,    '2001-03-06');
+INSERT INTO oferta VALUES ( 16 ,    15 ,    4 ,      545902 ,    '2005-06-03');
+INSERT INTO oferta VALUES ( 17 ,    16 ,    4 ,      211914 ,    '2003-04-03');
+INSERT INTO oferta VALUES ( 18 ,    17 ,    4 ,      414975 ,    '2002-02-09');
+INSERT INTO oferta VALUES ( 19 ,    18 ,    4 ,      119485 ,    '2009-01-06');
+INSERT INTO oferta VALUES ( 20 ,    19 ,    4 ,      487048 ,    '2006-05-05');
+INSERT INTO oferta VALUES ( 21 ,    20 ,    5 ,      35255 ,     '2007-01-06');
+INSERT INTO oferta VALUES ( 22 ,    21 ,    5 ,      625898 ,    '2007-03-09');
+INSERT INTO oferta VALUES ( 23 ,    22 ,    5 ,      732870 ,    '2008-04-05');
+INSERT INTO oferta VALUES ( 24 ,    23 ,    5 ,      988164 ,    '2003-01-01');
+INSERT INTO oferta VALUES ( 25 ,    24 ,    5 ,      496127 ,    '2001-01-03');
+INSERT INTO oferta VALUES ( 26 ,    25 ,    6 ,      52400 ,     '2007-03-06');
+INSERT INTO oferta VALUES ( 27 ,    26 ,    6 ,      753149 ,    '2007-06-08');
+INSERT INTO oferta VALUES ( 28 ,    27 ,    6 ,      695365 ,    '2007-07-09');
+INSERT INTO oferta VALUES ( 29 ,    28 ,    6 ,      206221 ,    '2006-04-07');
+INSERT INTO oferta VALUES ( 30 ,    29 ,    6 ,      733612 ,    '2003-09-02');
+INSERT INTO oferta VALUES ( 31 ,    30 ,    6 ,      545039 ,    '2007-07-09');
+INSERT INTO oferta VALUES ( 32 ,    31 ,    7 ,      1011612 ,   '2001-02-02');
+INSERT INTO oferta VALUES ( 33 ,    32 ,    7 ,      665346 ,    '2008-01-04');
+INSERT INTO oferta VALUES ( 34 ,    33 ,    7 ,      753702 ,    '2003-01-02');
+INSERT INTO oferta VALUES ( 35 ,    34 ,    7 ,      164447 ,    '2003-02-09');
+INSERT INTO oferta VALUES ( 36 ,    35 ,    7 ,      929301 ,    '2004-06-03');
+INSERT INTO oferta VALUES ( 37 ,    36 ,    8 ,      992461 ,    '2007-01-08');
+INSERT INTO oferta VALUES ( 38 ,    37 ,    8 ,      50554 ,     '2003-08-03');
+INSERT INTO oferta VALUES ( 39 ,    38 ,    8 ,      205648 ,    '2009-02-07');
+INSERT INTO oferta VALUES ( 40 ,    39 ,    8 ,      509707 ,    '2006-02-06');
+INSERT INTO oferta VALUES ( 41 ,    40 ,    8 ,      207369 ,    '2005-07-01');
+INSERT INTO oferta VALUES ( 42 ,    41 ,    9 ,      409035 ,    '2005-07-03');
+INSERT INTO oferta VALUES ( 43 ,    42 ,    9 ,      515289 ,    '2004-03-01');
+INSERT INTO oferta VALUES ( 44 ,    43 ,    9 ,      576842 ,    '2005-04-08');
+INSERT INTO oferta VALUES ( 45 ,    44 ,    9 ,      444401 ,    '2006-04-07');
+INSERT INTO oferta VALUES ( 46 ,    45 ,    9 ,      929302 ,    '2006-05-03');
+INSERT INTO oferta VALUES ( 47 ,    46 ,    10 ,     606941 ,    '2006-03-02');
+INSERT INTO oferta VALUES ( 48 ,    47 ,    10 ,     626306 ,    '2004-03-09');
+INSERT INTO oferta VALUES ( 49 ,    48 ,    10 ,     828473 ,    '2004-03-01');
+INSERT INTO oferta VALUES ( 50 ,    49 ,    10 ,     696417 ,    '2001-08-03');
+INSERT INTO oferta VALUES ( 51 ,    50 ,    10 ,     597551 ,    '2005-04-07');
+
 
 /* 2ª */
 CREATE TABLE faixa_imovel (
@@ -782,6 +836,7 @@ INSERT INTO faixa_imovel VALUES (1, 'baixo', 0, 105000);
 INSERT INTO faixa_imovel VALUES (2, 'medio', 105001, 180000);
 INSERT INTO faixa_imovel VALUES (3, 'alto', 180001, 999999);
 
+/*7ª*/
 CREATE TABLE imovel(
     cd_imovel INT NOT NULL,
     cd_vendedor INT NOT NULL,
@@ -1201,4 +1256,3 @@ REFERENCES estado (sg_estado);
 ALTER TABLE imovel
 ADD FOREIGN KEY (cd_oferta)
 REFERENCES oferta (cd_oferta);
-
